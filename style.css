@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins, sans-serif;
+}
+.container {
+    background-color: #1D1F1F;
+    /* background-color: gray; */
+    width: 1450px;   
+    margin: 0 auto; 
+}
+.navbar-contaienr {
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% auto;
+    margin-left: -10%;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    color: #656B6B;
+    font-size: 18px;
+}
+.hero-container {
+    /* align-items: center;
+    background-image: url(./Assets/Photos/backCards.png);
+    background-repeat: no-repeat;
+    background-position: 110% 40%; */
+}
+.backcards {
+    margin-left: 45%;
+    margin-top: -30%;
+}
+.frontcards {
+    margin-left: 58%;
+    margin-top: -36%;
+} 
+.heading {
+    color: #fff;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 45px;
+    padding-right: 35%;
+}
+div h1 span {
+    color: #C93EC2;
+}
+.discription {
+    margin-top: 4%;
+    margin-left: 5%;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 16px;
+    padding-right: 65%;
+}
+.decision {
+    background-image: url(./Assets/Icons/btn-pink-bg.svg);
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-left: 2%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.numbers {
+    display: flex;
+    justify-content: start;
+    margin-top: -12%;
+    margin-left: 5%;
+}
+.col-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.col-1 span {
+    font-size: 40px;
+    color: #fff;
+}
+.col-1 p {
+    font-size: 16px;
+    color: #fff;
+    padding: 0 10px;
+    padding-right: 20%;
+}
+.col-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.col-2 span {
+    font-size: 40px;
+    color: #fff;
+}
+.col-2 p {
+    font-size: 16px;
+    color: #fff;
+    padding: 0 10px;
+    padding-right: 20%;
+}
+.logo {
+    margin-top: 10%;
+    height: 10vh;
+    background-color: #fff;
+}
+.information {
+    height: 75vh;
+}
+.heading-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+    margin-left: 5%;
+    color: #fff;
+}
+section div span {
+    font-size: 55px;
+    margin-right: 20%;
+}
+strong {
+    color: #C93EC2;
+}
+.para-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+} 
+.boxx {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-top: 15%;
+}
+.block-1 {
+    height: 250px;
+    width: 300px;
+    background-color: #424545;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 2%;
+    border: 2px solid #424545;
+}
+.block-2 {
+    height: 250px;
+    width: 300px;
+    background-color: #778080;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 2%;
+    margin-top: -2%;
+    border: 2px solid #B3BDBD;
+}
+.block-3 {
+    height: 250px;
+    width: 300px;
+    background-color: #424545;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 2%;
+    border: 2px solid #424545;
+}
+.card-choices {
+    background-color: #fff;
+    height:70vh;
+    text-align: center;
+}
+.heading-3 {
+    font-size: 50px;
+    color: #1D1F1F;
+    padding: 5% 30%;
+}
+.content {
+    font-size: 16px;
+    margin-top: -55px;
+    padding: 0 32%;
+    opacity: 0.7;
+}
+.ratings {
+    height: 70vh;
+    
+}
+.heading-4 {
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+    padding: 2% 32%;
+}
+.feature {
+    font-size: 40px;
+    color: #C93EC2;
+}
+.content-2 {
+    text-align: center;
+    font-size: 16px;
+    color: #B3BDBD;
+    padding: 1% 35%;
+}
+.box-1 {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    justify-content: center;
+}
+.custom-card {
+    background-color: #3944F7;
+}
